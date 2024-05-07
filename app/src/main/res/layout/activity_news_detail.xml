@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:id="@+id/newsImage"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/news_image"
+            tools:src="@drawable/img1"/>
+
+        <TextView
+            android:id="@+id/newsHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            tools:text="This will be the news heading !!!"
+            android:textSize="23sp"/>
+
+        <TextView
+            android:id="@+id/newsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="3dp"
+            tools:text="US economy:
+The US economy is facing a number of challenges, including high inflation, rising interest rates, and a potential recession. The Federal Reserve is raising interest rates in an effort to combat inflation, but this could also lead to a slowdown in economic growth.
+Climate change:
+Climate change is a major threat to the planet, and its effects are already being felt around the world. Extreme weather events, such as hurricanes, floods, and droughts, are becoming more common and more severe. Climate change is also causing sea levels to rise, which is threatening coastal communities.
+Monkeypox outbreak:
+The monkeypox virus is currently spreading around the world, and there have been over10,000 cases reported in over60 countries. The virus is not as deadly as smallpox, but it can cause serious illness. Health officials are working to contain the outbreak and develop a vaccine.
+Mass shootings:
+The United States has experienced a number of mass shootings in recent months, including the shootings in Uvalde, Texas, and Buffalo, New York. These shootings have reignited the debate about gun control in the US."
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
